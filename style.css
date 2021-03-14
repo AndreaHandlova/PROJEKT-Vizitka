@@ -32,7 +32,7 @@ body {
     padding: 30px;   
 }
 
-img {
+.foto {   /* dát třídu do img, aby se pak tímto nestylovaly všechny obrázky, kdyby se nově přidaly*/
     border-radius: 50%;
     width: 150px;
     height: 150px;
@@ -40,7 +40,7 @@ img {
     box-shadow: 5px 10px 18px #888888;
     position: absolute;
     top: -75px;
-    left: 475px;
+    right: -75px;
 }
 
 h1 {
@@ -51,7 +51,13 @@ h1 {
     margin-top: 0;
 }
 
-a {
+.paragraf {
+    font-size: 18px;
+    text-align: justify;
+    
+}
+
+.button { /* zase přidat třídu do <a class="button twitter"...>, aby se pak nestyovaly všechny budoucí odkazy, původně jsem stylovala obecně všechny odkazy "a"*/
     display: block;
     text-decoration: none;
     text-transform: uppercase;
